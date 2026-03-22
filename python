@@ -1,0 +1,12 @@
+subjects = input("Enter subjects (comma separated): ").split(",")
+
+days = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
+
+plan = {}
+
+for i, day in enumerate(days):
+    plan[day] = subjects[i % len(subjects)].strip()
+
+print("\nStudy Plan:")
+for day, sub in plan.items():
+    print(day, "->", sub)
