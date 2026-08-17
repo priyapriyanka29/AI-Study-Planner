@@ -13,7 +13,7 @@ A Python tool that generates a simple study schedule based on given subjects.
 
 * Python
 
-## ▶️ Run
+## ▶️ Run   
 
 ```bash
 python main.py
